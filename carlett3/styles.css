@@ -1,0 +1,37 @@
+/* Resto de tu código CSS... */
+
+body {
+    background-color: #333; /* Fondo gris oscuro */
+    color: white; /* Color de texto blanco para un contraste adecuado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Para ocupar toda la altura de la ventana */
+  }
+  
+  .contenedor {
+    text-align: center; /* Centrar el contenido dentro del contenedor */
+  }
+
+  .img-carrusel {
+    max-width: 300px; /* Ancho máximo de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: auto; /* Centrar las imágenes horizontalmente */
+  }  
+
+  .fixed-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; /* Tamaño fijo de las flechas */
+    height: 40px; /* Tamaño fijo de las flechas */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambiar el color según tus preferencias */
+  }
+  
+  .carousel-control-prev {
+    left: -45px; /* Posición fija a la izquierda */
+  }
+  
+  .carousel-control-next {
+    right: -45px; /* Posición fija a la derecha */
+  }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nivel de interés</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+  <script src="script.js" defer></script> <!-- Enlace al archivo JavaScript -->
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Ponga su nivel de interés 🧐🧐🧐</h1>
+    <div class="input-container">
+      <label for="nivelInteres">Nivel de interés:</label>
+      <input type="range" id="nivelInteres" name="nivelInteres" min="1" max="100" value="50" class="slider">
+      <p id="valorInteres">50</p>
+    </div>
+    <button onclick="continuar()" class="boton">Dale aquí pa continuar :)</button>
+    <p id="mensajeError" class="mensaje-error"></p>
+  </div>
+</body>
+</html>
